@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container1 {
+  background: url('../img/bg_container1.jpg');
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.container1 .content {
+  width: 500px;
+  height: 260px;
+  /* background: #ea8685; */
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  padding: 20px;
+}
+.container1 .content a {
+  display: block;
+  text-decoration: none;
+}
+.container1 .content button {
+  padding: 10px;
+  width: 220px;
+  height: 50px;
+  margin-top: 10px;
+  background: #000;
+  border: none;
+  box-shadow: 3px 3px rgb(167, 143, 118), 5px 5px 2px black; /* Border bottom */
+}
+.container1 .content button a {
+  color: #fff;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container1 .content button i {
+  /* color: #fff; */
+  /* background: #f78fb3; */
+  font-size: 1em;
+}
+.container1 .content h2 {
+  color: rgb(18, 18, 44);
+  /* background: chartreuse; */
+  padding: 5px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 37px;
+  height: 80px;
+  width: 300px;
+  letter-spacing: 2px;
+}
+.container1 .content p {
+  color: rgb(18, 18, 44);
+  width: 410px;
+  height: 86px;
+  /* background: #546de5; */
+  padding: 8px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.1em;
+  line-height: inherit;
+}
+@media(max-width: 480px){
+  .container1{
+   
+  }
+  .content{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    background: #000;
+  }
+}
