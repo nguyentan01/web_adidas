@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Noto Sans' , sans-serif;
+}
+    /* logo  */
+nav.navbar.navbar-expand-md.navbar-light.bg-light.fixed-top{
+    height: 100px;
+    position: relative;
+    width: 100%;
+}
+
+a.navbar-brand img.rounded {
+    position: relative;
+}
+
+a.navbar-brand { 
+    position: relative;
+    left: 30px;
+    top: 10px;
+    width: 100px;
+}
+ul[class="navbar-nav mr-auto mt-2 mt-lg-0"] {
+    font-size: 14px;
+}
+li[class="nav-item active"] {
+    font-weight: 600;
+    padding: 20px;
+}
+
+div#collapsibleNavId {
+    position: relative;
+    text-align: center;
+    left: 20%;
+    top: 25%;
+    width: 200px;
+}
+li[class="nav-item"] {
+    top: 20px;
+    position: relative;
+    padding-right: 20px;
+}
+ /* div class menu-help  */
+div.menu-help { 
+    width: 500px;
+}
+div.menu-help ul { 
+    list-style-type: none;
+    float: left;;
+}
+
+div[class="menu-help"] {
+    position: relative;
+    top: -20px;
+    width: 555px;
+    left: 55px;
+}
+
+li[class="item"] {
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+/* form search */
+
+
+.timkiem {
+    position: relative;
+    left: 0%;
+}
+
+a.search-icon {
+    position: absolute;
+    top: 10%;
+    right: 1%;
+    color: black;
+}
+
+.congcu {
+    left: 27%;
+    display: flex;
+    position: relative;
+}
+
+.shopping-icon {
+    padding-left: 35px;
+    position: relative;
+    color: black;
+}
