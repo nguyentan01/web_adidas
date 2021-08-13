@@ -1,187 +1,8 @@
-
-/* <<<<<<< HEAD */
-
-
-    /* logo  */
-nav.navbar.navbar-expand-md.navbar-light.bg-light.fixed-top{
-    height: 100px;
-    position: relative;
-    width: 100%;
-}
-
-a.navbar-brand img.rounded {
-    position: relative;
-}
-
-a.navbar-brand { 
-    position: relative;
-    left: 30px;
-    top: 10px;
-    width: 100px;
-}
-ul[class="navbar-nav mr-auto mt-2 mt-lg-0"] {
-    font-size: 14px;
-}
-li[class="nav-item active"] {
-    font-weight: 600;
-    padding: 20px;
-}
-
-div#collapsibleNavId {
-    position: relative;
-    text-align: center;
-    left: 20%;
-    top: 25%;
-    width: 200px;
-}
-li[class="nav-item"] {
-    top: 20px;
-    position: relative;
-    padding-right: 20px;
-}
- /* div class menu-help  */
-div.menu-help { 
-    width: 500px;
-}
-div.menu-help ul { 
-    list-style-type: none;
-    float: left;;
-}
-
-div[class="menu-help"] {
-    /* position: relative; */
-    top: -20px;
-    width: 555px;
-    left: 55px;
-}
-
-li[class="item"] {
-    float: left;
-    position: relative;
-    padding-left: 20px;
-    font-size: 13px;
-    text-decoration: none;
-    color: black;
-}
-
-ul.help-items {
-  position: absolute;
-  top: 10px;
-  right: 53px;
-}
-
-/* form search */
-
-
-.timkiem {
-    position: relative;
-    left: 0%;
-}
-
-a.search-icon {
-    position: absolute;
-    top: 10%;
-    right: 1%;
-    color: black;
-}
-
-.congcu {
-    left: 27%;
-    display: flex;
-    position: relative;
-}
-
-.shopping-icon {
-    padding-left: 35px;
-    position: relative;
-    color: black;
-}
-/* =========== */
 *{
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-.container1 {
-  background: url('../img/bg_container1.jpg');
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background-size: cover;
-  /* background-position: center; */
-
-}
-.container1 .content {
-  width: 500px;
-  height: 260px;
-  /* background: #ea8685; */
-  position: absolute;
-  left: 10%;
-  top: 30%;
-  padding: 20px;
-}
-.container1 .content a {
-  display: block;
-  text-decoration: none;
-}
-.container1 .content button {
-  padding: 10px;
-  width: 220px;
-  height: 50px;
-  margin-top: 10px;
-  background: #000;
-  border: none;
-  box-shadow: 3px 3px rgb(167, 143, 118), 5px 5px 2px black; /* Border bottom */
-}
-.container1 .content button a {
-  color: #fff;
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 16px;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-.container1 .content button i {
-  /* color: #fff; */
-  /* background: #f78fb3; */
-  font-size: 1em;
-}
-.container1 .content h2 {
-  color: rgb(18, 18, 44);
-  /* background: chartreuse; */
-  padding: 5px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 37px;
-  height: 80px;
-  width: 300px;
-  letter-spacing: 2px;
-}
-.container1 .content p {
-  color: rgb(18, 18, 44);
-  width: 410px;
-  height: 86px;
-  /* background: #546de5; */
-  padding: 8px;
-  font-family: "Noto Sans JP", sans-serif;
-  font-size: 1.1em;
-  line-height: inherit;
-}
-@media(max-width: 480px){
-  .container1{
-   
-  }
-  .content{
-    position: absolute;
-    bottom: 0%;
-    left: 0;
-    background: #000;
-  }
-}
-/* >>>>>>> 571de1bb69913d72abbea0ba96a20481d2be239f */
-
 
 .container2 {
   background: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/viVN/Images/originals-ss21-lego-energy-launch-footwear-hp-mh-large-d_tcm337-697846.jpg);
@@ -189,7 +10,6 @@ a.search-icon {
   color: white;
   width: 100%;
   height: 590px;
-  position: relative;
 }
 
 img.anh {
@@ -295,6 +115,50 @@ a.buynow:hover {
   background-color: black;
 }
 
-.carousel-control-next-icon {
-  /* background-image: none; */
+.carousel_WhatHot h1.big_text {
+  font-size: 35px;
+  margin-left: 50px;
 }
+
+.carousel_WhatHot {
+  padding-top: 54px;
+}
+
+.carousel_WhatHot .carousel-control-prev-icon, .carousel_WhatHot .carousel-control-next-icon {
+  background: none;
+}
+
+.carousel_WhatHot a.carousel-control-prev, .carousel_WhatHot a.carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  color: black;
+  opacity: 1;
+  border: 1px solid black;
+  top: 41%;
+}
+
+.carousel_WhatHot i.fa.fa-long-arrow-left, .carousel_WhatHot i.fa.fa-long-arrow-right {
+  font-size: 26px;
+  width: 100%;
+  height: 100%;
+  text-shadow: none;
+  font-weight: lighter;
+}
+
+.carousel_WhatHot a.carousel-control-prev:hover, .carousel_WhatHot a.carousel-control-next:hover {
+  background: black;
+  color: white;
+}
+
+.carousel_WhatHot a.carousel-control-prev {
+  left: 2px;
+}
+
+.carousel_WhatHot a.carousel-control-next {
+  right: 3px;
+}
+
+
+
+
